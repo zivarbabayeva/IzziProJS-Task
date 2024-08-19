@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/98f688fe4a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="topnav" id="navbar">
+            <div id="navs">
+                <div class="icons"><img src="/image/Group 26295.png" alt=""></div>
+                <div class="orders">
+                    <a href="orders">
+                        <h5>My orders</h5>
+                    </a>
+                    <a href="services">
+                        <h5>Services</h5>
+                    </a>
+                    <a href="help">
+                        <h5>Help</h5>
+                    </a>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <div class="right">
+                    <button class="urgent"><i class="fa-solid fa-bolt"></i>URGENT</button>
+
+                    <div class="icon">
+                        <img src="/image/7e2b34a36b3a979cd77a7a81ab55f10c.png" alt="">
+                    </div>
+                    <a href="elon">
+                        <h5>Elon Musk</h5>
+                    </a>
+
+                    <img src="/image/5209a490afe3f1ca1da22f8161d62cfa.png" class="flag" alt="">
+                </div>
+            </div>
+            <div class="res">
+                <img src="/image/7e2b34a36b3a979cd77a7a81ab55f10c.png" alt="">
+            </div>
+        </div>
+        <div id="head">
+            <img src="/image/head bg.png" alt="">
+            <h2>All Pros</h2>
+        </div>
+        <div id="content">
+            <div class="col-lg-2">
+                <div class="left">
+                    <div class="filters">
+                        <h3 class="filter">Filters</h3> <br>
+                        <div class="check">
+                            <label for="">
+                                <input type="checkbox" id="toppros" onclick="filterPortraits('toppros')"
+                                    data-filter="toppros">
+                            </label>
+                            <p>Top Pros</p>
+                        </div> <br>
+                        <div class="check">
+                            <label for="">
+                                <input type="checkbox" id="newpros" onclick="filterPortraits('newpros')"
+                                    data-filter="newpros">
+                            </label>
+                            <p>New Pros</p>
+                        </div><br>
+                        <div class="check">
+                            <label for="">
+                                <input type="checkbox" id="supervisors" onclick="filterPortraits('supervisors')"
+                                    data-filter="supervisors">
+                            </label>
+                            <p>Supervisors</p>
+                        </div><br>
+                        <div class="check">
+                            <label for="">
+                                <input type="checkbox" id="pros" onclick="filterPortraits('pros')" data-filter="pros"
+                                    class="active">
+                            </label>
+                            <p>Pros</p>
+                        </div><br>
+
+                    </div>
+                    <div class=" sorting"><br>
+                        <h3>Sorting</h3><br>
+                        <div class="rating">
+                            <p>By Rating</p>
+                            <input type="number" placeholder="Descending">
+                        </div><br>
+                        <div class="rating">
+                            <p>By Task Count</p>
+                            <input type="number" placeholder="Ascending">
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+            <div id="list" class="row">
+                <div class="col-lg-4">
+                    <div class="cards"></div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- <div class="head-res">
+            <div class="smile">
+                <img src="/image/c7f5bdb5d6589c989dc7215a301c56b2.png" alt="">
+                <p>All Services</p>
+            </div>
+            <h6>Find your best</h6>
+            <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown
+                printer.</p>
+        </div> -->
+
+
+    </div>
+
+    <div id="frame">
+        <div class="foot-frame">
+            <img src="/image/Frame 2.png" alt="">
+        </div>
+    </div>
+    <div id="footer">
+        <div class="section1">
+            <img src="/image/Group 26295.png" alt="">
+            <p class="foot1">izzi is the major platform in Azerbaijan to request help from taskers</p>
+        </div>
+        <div class="section2">
+            <p>izzi Ltd.</p>
+            <p>Location adres</p>
+            <p>info@izzi.com</p>
+            <p>+994 (50) XX XXXX</p>
+            <p>NR21465161</p>
+        </div>
+        <div class="section3">
+            <p>Book a service</p>
+            <p>Browse Services</p>
+            <p>Find Taskers</p>
+            <p>How does it work?</p>
+        </div>
+        <div class="section4">
+            <p>Extra links
+            <p>
+            <p>About us</p>
+            </p>FAQ</p>
+            <p>Contact us</p>
+            <p>Become a Task</p>
+        </div>
+
+    </div>
+    <hr class="next">
+    <div class="footer-bottom">
+        <div class="sosial">
+            <img src="/image/1.png" alt="">
+            <img src="image/2.png" alt="">
+            <img src="image/3.png" alt="">
+            <img src="image/Vector.png" alt="">
+        </div>
+        <div class="terms">
+            <p>izzi Ltd. 2021</p>
+            <p>Privacy Policy</p>
+            <p>Terms and conditions</p>
+        </div>
+    </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
